@@ -1,0 +1,109 @@
+.container
+
+h1{
+    margin-left: 33%;
+    margin-top: 5%;
+    line-height: 1em;
+
+}
+#icon{
+    position: absolute;
+    left: 51%;
+    top: 80px;  
+}
+
+#cake{
+    margin-top: -7%;
+    margin-left: 55%;
+}
+
+#bucket{
+    margin-left: 10%;
+    margin-top: 2em;
+    
+}
+
+.intro{
+    font-size: 14pt;
+    position: absolute;
+  top: 180px;
+  left: 300px;
+  width: 500px;
+  text-align: right;
+  font-family: "proxima-soft"
+}
+
+h2 {
+    font-family: "park-lane";
+    margin-left: 20%;
+    margin-top: .5%;
+    line-height: 1em;
+}
+
+h3 {
+    font-family: "park-lane";
+}
+
+
+.info{
+    background-color: rgb(153, 192, 218);
+    margin-top: 40px;
+    height: 40px;
+    border-radius: 25px;
+    width: 80%;
+    margin-left: 8%;
+    text-align: center;
+    font-size: 16pt;
+    font-family: "proxima-soft"
+}
+
+
+ol {
+    list-style: none;
+    counter-reset: item;
+  }
+  li {
+    counter-increment: item;
+    margin-bottom: 5px;
+  }
+  li:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: rgb(235, 179, 179);
+    border-radius: 100%;
+    color: rgb(173, 25, 19);
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+    font-family: "proxima-soft";
+  }
+.ingredients{
+    background-color:rgb(206, 226, 240);
+    height: 450px;
+    width: 450px;
+    border-radius: 25px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    font-size:14pt;
+    font-family: "proxima-soft";
+
+}
+
+.directions{
+    background-color: rgb(153, 192, 218);
+    margin-top: 120px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 14pt;
+    font-family: "proxima-soft";
+    width: 80%;
+    margin-left: 8%;
+}
+ table{
+    border: 1px;
+    width: 60%;
+    margin: auto;
+ }
